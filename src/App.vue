@@ -7,7 +7,26 @@
 <!-- <reUse /> -->
 <!-- <htmlBinding/> -->
 <!-- <classBinding /> -->
-<Props/>
+<!-- <Props/> -->
+<!-- <chaildToParent /> -->
+<!-- <Ref/> -->
+<!-- <simpleForm/> -->
+<!-- <completeForm/>-->
+<!-- <formModifier/> -->
+<!-- <nonPropsData /> -->
+<!-- <computedProperty/> -->
+<!-- <Watchers/> -->
+<!-- <Slots/> -->
+<!-- <dynamicComponent/> -->
+<!-- <teleportComponent/> -->
+<!-- <router-link to="/" >Home</router-link> -->
+<!-- <router-link to="/Watchers" >Watchers</router-link> -->
+<!-- <router-view>
+
+</router-view> -->
+<callApi/>
+
+
 </template>
 
 <script>
@@ -19,7 +38,19 @@
 // import reUse from './components/reUse.vue'
 // import htmlBinding from './components/htmlBinding.vue'
 // import classBinding from './components/classBinding.vue'
-import Props from './components/Props.vue'
+// import Props from './components/Props.vue'
+// import chaildToParent from './components/chaildToParent.vue'
+// import Ref from './components/Ref.vue'
+// import simpleForm from './components/simpleForm.vue'
+// import completeForm from './components/completeForm.vue'
+// import formModifier from './components/formModifier.vue'
+// import nonPropsData from './components/nonPropsData.vue.vue'
+// import computedProperty from './components/computedProperty.vue'
+// import Watchers from './components/Watchers.vue'
+// import Slots from './components/Slots.vue'
+// import dynamicComponent from './components/dynamicComponent.vue'
+// import teleportComponent from './components/teleportComponent.vue'
+import callApi from './components/callApi.vue'
 export default {
     name: 'App',
     components: {
@@ -31,7 +62,19 @@ export default {
         // reUse,
         // htmlBinding,
         // classBinding,
-        Props,
+        // Props,
+        // chaildToParent,
+        // Ref,
+        // simpleForm,
+        // completeForm,
+        // formModifier,
+        // nonPropsData,
+        // computedProperty,
+        // Watchers,
+        // Slots,
+        // dynamicComponent,
+        // teleportComponent,
+        callApi,
     }
 }
 </script>
